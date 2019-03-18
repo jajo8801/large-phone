@@ -1,0 +1,74 @@
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+  font-size: 200%;
+}
+
+
+#content_dialer_input{
+  background: black;
+  color: white;
+  border-color: white;
+  font-size: 75%;
+}
+
+#content_dialer_keypad{
+  width: 50%;
+}
+
+.dialer_keys {
+	background: black;
+	color: white;
+	width: 25%;
+  padding: 20px 20px;
+  border-color: white;
+  font-size: 75%;
+}
+
+/* Style tab links */
+.tab_links {
+  background-color: grey;
+  color: white;
+  border-color: white;
+  outline: none;
+  cursor: pointer;
+  padding: 14px;
+  width: 24%;
+  font-size: 75%
+}
+
+
+.tabs_names {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  float: inherit;
+}
+
+th{
+  text-align: left;
+}
+
+#dialer {background-color: grey; border-color: white;}
+#contacts {background-color: grey; border-color: white;}
+#add_contacts {background-color: grey; border-color: white;}
+#toggle_mode{
+  background-color: blue;
+   border-color: white;
+   color: white;
+   font-size: 50%;
+ }
+
+#content_dialer_keypad_dial{
+  width: 38%;
+  background-color: blue;
+}
+
+#content_dialer_keypad_clear{
+  width: 38%;
+  background-color: grey;
+}
