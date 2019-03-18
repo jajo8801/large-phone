@@ -1,16 +1,18 @@
 /* Set height of body and the document to 100% to enable "full page tabs" */
+#toggle_mode{
+  background-color: blue;
+   border-color: white;
+   color: white;
+   padding: 14px;
+   font-size: 25px;
+   width: 24%;
+ }
+
 body, html {
   height: 100%;
   margin: 0;
   font-family: Arial;
 }
-
-#toggle_mode{
-  background-color: blue;
-   border-color: white;
-   color: white;
-   font-size: 25%;
- }
 
 .titles{
 	color: black;
@@ -57,6 +59,8 @@ th{
 #dialer {background-color: #11db68;}
 #contacts {background-color: #f23a3a;}
 #add_contacts {background-color: #3b80ef;}
+
+
 
 #content_dialer_keypad_dial{
   width: 38%;
